@@ -31,11 +31,13 @@ const HomeScreen = () => {
       <h2 className="question">{
         title ? `${"Do you agree to be my girlfriend?"}` : `${"I love you too!❤️"}`
       }</h2>
-      <img
-        className="gif"
-        alt="gif"
-        src={gif} />
-      <div className={`${title? "":"hidden"}`}>
+      <div className="gif">
+        <img
+          alt="gif"
+          src={gif} />
+      </div>
+
+      <div className={`${title ? "" : "hidden"}`}>
         <div className="btn-group">
           <button className="yes-btn" onClick={handleYesClick} >
             Yes

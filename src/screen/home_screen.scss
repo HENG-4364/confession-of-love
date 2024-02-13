@@ -13,13 +13,19 @@ body {
   min-height: 100vh;
   background: whitesmoke;
 }
+.gif{
+  display: flex;
+  justify-content: center;
+  img{
+    width: 60%;
+  }
+}
 h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 1.5em;
   color: #e94d58;
   margin: 15px 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-family: "Protest Revolution", sans-serif;
 }
 .btn-group {
   width: 100%;
@@ -30,14 +36,13 @@ h2 {
 }
 button {
   position: absolute;
-  width: 150px;
+  width: 100px;
   height: inherit;
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
   border-radius: 30px;
   outline: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
+  font-family: "Protest Revolution", sans-serif;
   cursor: pointer;
   box-shadow: 0 2px 4px gray;
   border: 2px solid #e94d58;
