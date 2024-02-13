@@ -29,7 +29,7 @@ const HomeScreen = () => {
   return (
     <div className="wrapper">
       <h2 className="question">{
-        title ? `${"តើអ្នកព្រមធ្វើសង្សារខ្ញុំទេ?"}` : `${"ខ្ញុំក៏ស្រលាញ់អ្នកដែរ! ❤️"}`
+        title ? `${"Do you agree to be my girlfriend?"}` : `${"I love you too!❤️"}`
       }</h2>
       <img
         className="gif"
@@ -38,10 +38,10 @@ const HomeScreen = () => {
       <div className={`${title? "":"hidden"}`}>
         <div className="btn-group">
           <button className="yes-btn" onClick={handleYesClick} >
-            យល់ព្រម
+            Yes
           </button>
           <button className="no-btn" onMouseOver={handleNoMouseOver} >
-            ទេ
+            No
           </button>
         </div>
       </div>
